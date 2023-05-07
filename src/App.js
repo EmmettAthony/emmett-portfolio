@@ -5,6 +5,7 @@ import Portfolio from "./component/Portfolio";
 import Experience from "./component/Experience";
 import SocialLinks from "./component/SocialLinks";
 import Contact from "./component/Contact";
+import ScrollToTop from "./component/ScrollToTop";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Portfolio></Portfolio>
       <Experience></Experience>
       <Contact></Contact>
+      <ScrollToTop></ScrollToTop>
     </div>
   );
 }
